@@ -1,0 +1,22 @@
+{
+  "name": "agent-harness-lab-2d",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Agent Harness Lab — carnet visuel pour comprendre le harnessing d'agents IA (LangGraph) en banque privée",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "node tests/engine.test.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "roughjs": "^4.6.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.1"
+  }
+}
